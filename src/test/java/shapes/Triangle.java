@@ -1,7 +1,5 @@
 package shapes;
 
-import java.util.Scanner;
-
 public class Triangle extends Shapes {
 
     public Triangle(String name) {
@@ -10,10 +8,11 @@ public class Triangle extends Shapes {
 
     @Override
     public int shapes() {
-        int height = 5;
 
-        if(height<=0){
-            throw new RuntimeException("Invalid Height: "+height);
+        int height = 10;
+
+        if (height <= 0) {
+            throw new RuntimeException("Invalid Height: " + height);
         }
 
         for (int i = 1; i <= height; i++) {
@@ -27,16 +26,9 @@ public class Triangle extends Shapes {
             System.out.println();
         }
 
+
         return height;
     }
 
-    public void setHeight(int i) {
-    }
 
-    public int getHeight() {
-        return 5;
-    }
-
-    public void setName(String name) {
-    }
 }

@@ -13,6 +13,7 @@ public abstract class Shapes {
 
     public abstract int shapes();
 
+
     @Override
     public String toString() {
         return
@@ -20,8 +21,6 @@ public abstract class Shapes {
                         ", shapes='" + shapes() + '\'' +
                         '}';
     }
-
-
 
 }
 

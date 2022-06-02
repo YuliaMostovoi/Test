@@ -1,7 +1,5 @@
 package shapes;
 
-import java.util.Scanner;
-
 public class X extends Shapes {
 
     public X(String name) {
@@ -20,7 +18,7 @@ public class X extends Shapes {
         int k = height * 2 - 1;
         for (int i = 1; i <= k; i++) {
             for (int star = 1; star <= k; star++) {
-                if (star == i || star == k - i+1) {
+                if (star == i || star == k - i + 1) {
                     System.out.print("*");
                 }
                 System.out.print(" ");

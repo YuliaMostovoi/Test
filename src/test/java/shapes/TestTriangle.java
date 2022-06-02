@@ -9,9 +9,10 @@ public class TestTriangle {
         Triangle triangle = new Triangle("Triangle");
         System.out.println(triangle);
     }
+
     @Test
     public void testTriangle() {
         Triangle triangle = new Triangle("Triangle");
-        assertEquals(5, triangle.shapes());
+        assertEquals(10, triangle.shapes());
     }
 }
